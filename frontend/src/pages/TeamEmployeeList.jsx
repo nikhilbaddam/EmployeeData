@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 import { StoreContext } from '../storeContext';
 import { useNavigate } from 'react-router-dom';
-import img from '../assets/profileIcon.webp';
+
 
 const EmployeeList = () => {
   const { url } = useContext(StoreContext);
